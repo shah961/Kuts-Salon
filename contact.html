@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Appointment Request | Kuts & More Unisex Salon Mumbai</title>
+    <meta name="description" content="Contact Kuts & More Unisex Salon on Lamington Road, Mumbai. Call 022 2307 0281, email kutsandmore@hotmail.com, or send an appointment inquiry online.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="contact.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact Us | Kuts & More Unisex Salon Mumbai">
+    <meta property="og:description" content="Reach out to book hair styling, coloring, facials, or hair spa appointments in Lamington Road, Mumbai.">
+    <meta property="og:url" content="contact.html">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="header">
+        <div class="header-container">
+            <a href="index.html" class="brand-logo">
+                <span class="logo-title">KUTS & MORE</span>
+                <span class="logo-subtitle">UNISEX SALON</span>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="contact.html" class="btn btn-primary btn-sm desktop-only">Book Appointment</a>
+                <button class="mobile-toggle" id="mobileMenuBtn" aria-expanded="false" aria-controls="mobileNav" aria-label="Toggle navigation menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mobile-nav-overlay" id="mobileNav" aria-hidden="true">
+            <div class="mobile-nav-content">
+                <button class="mobile-close-btn" id="mobileNavClose" aria-label="Close navigation menu">&times;</button>
+                <div class="mobile-brand">
+                    <span class="logo-title">KUTS & MORE</span>
+                    <span class="logo-subtitle">MUMBAI</span>
+                </div>
+                <nav class="mobile-nav-links">
+                    <a href="index.html" class="mobile-link">Home</a>
+                    <a href="about.html" class="mobile-link">About Us</a>
+                    <a href="services.html" class="mobile-link">Services Menu</a>
+                    <a href="contact.html" class="mobile-link active">Contact & Location</a>
+                </nav>
+                <div class="mobile-nav-footer">
+                    <a href="tel:+912223070281" class="mobile-contact-link">Call: 022 2307 0281</a>
+                    <a href="contact.html" class="btn btn-accent btn-full">Book an Appointment</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Inner Hero -->
+        <section class="inner-hero dark-bg">
+            <div class="container text-center">
+                <span class="section-label gs-reveal">GET IN TOUCH</span>
+                <h1 class="inner-hero-title gs-reveal">Contact & Appointments</h1>
+                <p class="inner-hero-desc gs-reveal">Reach out to plan your salon experience at Lamington Road, Mumbai.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form & Info Grid -->
+        <section class="section">
+            <div class="container">
+                <div class="grid grid-2">
+                    <!-- Direct Info Box -->
+                    <div class="contact-details-box gs-reveal">
+                        <span class="section-label">SALON INFORMATION</span>
+                        <h2 class="section-title">Visit or Call Us</h2>
+                        <p class="body-text">We look forward to welcoming you. Walk-ins and appointments are available during opening hours.</p>
+
+                        <div class="contact-info-list">
+                            <div class="info-block">
+                                <h3>Address</h3>
+                                <p>2, Lamington Rd, Navjeevan Society, Navjeevan Area, Dalal Estate, Kamathipura, Mumbai, Maharashtra 400008, India</p>
+                            </div>
+                            <div class="info-block">
+                                <h3>Phone Contact</h3>
+                                <p><a href="tel:+912223070281" class="accent-link">022 2307 0281</a> (Landline)</p>
+                            </div>
+                            <div class="info-block">
+                                <h3>Email Address</h3>
+                                <p><a href="mailto:kutsandmore@hotmail.com" class="accent-link">kutsandmore@hotmail.com</a></p>
+                            </div>
+                            <div class="info-block">
+                                <h3>Opening Hours</h3>
+                                <p>Monday – Sunday: 10:00 AM – 9:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="map-link-card">
+                            <a href="https://maps.google.com/?q=2,+Lamington+Rd,+Navjeevan+Society,+Mumbai,+Maharashtra+400008" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark">Open Location in Google Maps &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Appointment Inquiry Form -->
+                    <div class="appointment-form-card dark-bg gs-reveal">
+                        <h2 class="form-title">Request an Appointment</h2>
+                        <p class="form-subtitle">Fill out the form below to request preferred times. Our team will verify slot availability.</p>
+
+                        <div id="formFeedback" class="form-feedback-message" hidden></div>
+
+                        <form id="appointmentForm" class="appointment-form" novalidate>
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required placeholder="e.g. Priyanshu Sharma">
+                                <span class="error-text" id="err-fullName"></span>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phoneNumber">Phone Number *</label>
+                                    <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="e.g. 9820012345">
+                                    <span class="error-text" id="err-phoneNumber"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="emailAddress">Email Address</label>
+                                    <input type="email" id="emailAddress" name="emailAddress" placeholder="e.g. client@example.com">
+                                    <span class="error-text" id="err-emailAddress"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="preferredService">Preferred Service *</label>
+                                <select id="preferredService" name="preferredService" required>
+                                    <option value="">Select a service category</option>
+                                    <option value="Haircut & Styling">Haircut & Styling</option>
+                                    <option value="Hair Colouring / Highlights">Hair Colouring / Highlights</option>
+                                    <option value="Hair Spa & Treatments">Hair Spa & Treatments</option>
+                                    <option value="Hair Smoothening / Rebonding">Hair Smoothening / Rebonding</option>
+                                    <option value="Facial & Skincare">Facial & Skincare</option>
+                                    <option value="Manicure / Pedicure / Waxing">Manicure / Pedicure / Waxing</option>
+                                    <option value="Makeup / Other">Makeup / Special Occasion</option>
+                                </select>
+                                <span class="error-text" id="err-preferredService"></span>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="preferredDate">Preferred Date *</label>
+                                    <input type="date" id="preferredDate" name="preferredDate" required>
+                                    <span class="error-text" id="err-preferredDate"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="preferredTime">Preferred Time *</label>
+                                    <select id="preferredTime" name="preferredTime" required>
+                                        <option value="">Select time slot</option>
+                                        <option value="Morning (10:00 AM - 1:00 PM)">Morning (10:00 AM - 1:00 PM)</option>
+                                        <option value="Afternoon (1:00 PM - 5:00 PM)">Afternoon (1:00 PM - 5:00 PM)</option>
+                                        <option value="Evening (5:00 PM - 9:00 PM)">Evening (5:00 PM - 9:00 PM)</option>
+                                    </select>
+                                    <span class="error-text" id="err-preferredTime"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Additional Notes / Requests</label>
+                                <textarea id="message" name="message" rows="3" placeholder="Mention any specific styling request or hair length details..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-accent btn-full">REQUEST APPOINTMENT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <a href="index.html" class="brand-logo footer-logo">
+                        <span class="logo-title">KUTS & MORE</span>
+                        <span class="logo-subtitle">UNISEX SALON</span>
+                    </a>
+                    <p class="footer-desc">Premium hair design, skin treatments, and beauty grooming for men and women in Lamington Road, Mumbai.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services & Menu</a></li>
+                        <li><a href="contact.html">Contact & Booking</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="footer-heading">Legal & Policy</h3>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col contact-col">
+                    <h3 class="footer-heading">Contact Details</h3>
+                    <p class="footer-info">2, Lamington Rd, Navjeevan Society, Navjeevan Area, Dalal Estate, Kamathipura, Mumbai, MH 400008</p>
+                    <p class="footer-info"><strong>Phone:</strong> <a href="tel:+912223070281">022 2307 0281</a></p>
+                    <p class="footer-info"><strong>Email:</strong> <a href="mailto:kutsandmore@hotmail.com">kutsandmore@hotmail.com</a></p>
+                    <p class="footer-info"><strong>Hours:</strong> Mon – Sun: 10:00 AM – 9:00 PM</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kuts & More Unisex Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
